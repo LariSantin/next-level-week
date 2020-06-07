@@ -53,3 +53,33 @@ npm install @types/react-leaflet -D
 -- Integração com a API
 npm install axios
 ```
+
+# Mobile
+
+```
+npm install -g expo-cli 
+-- instalar o expo
+
+expo init mobile
+--select - blank(typescript)
+
+npm start
+
+expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
+
+npm install @react-navigation/native
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+npm install @react-navigation/stack
+
+expo install react-native-maps
+
+expo install expo-constants
+
+expo install react-native-svg
+
+npm install axios
+
+expo install expo-location
+
+expo install expo-mail-composer
+```
