@@ -30,56 +30,65 @@ A aplicação da NLW é a parte web e mobile do ecoleta, que é o seu marketplac
 
     npm install cors
     npm install @types/cors -D
+
+    npm install multer
+    npm install @types/multer -D
+
+    npm install celebrate
+    npm install @types/hapi__joi -D
    ```
  
 - Para banco de dados foi utilizado o knex
 
 # Front
 ```
-npx create-react-app web --template=typescript
+    npx create-react-app web --template=typescript
 
-npm start
+    npm start
 
-npm install react-icons
+    npm install react-icons
 
-npm install react-router-dom
-npm install @types/react-router-dom -D
+    npm install react-router-dom
+    npm install @types/react-router-dom -D
 
--- Para integração de mapas:
+    -- Para integração de mapas:
 
-npm install leaflet react-leaflet
-npm install @types/react-leaflet -D
+    npm install leaflet react-leaflet
+    npm install @types/react-leaflet -D
 
--- Integração com a API
-npm install axios
+    -- Integração com a API
+    npm install axios
+
+    npm install react-dropzone
+
 ```
 
 # Mobile
 
 ```
-npm install -g expo-cli 
--- instalar o expo
+    npm install -g expo-cli 
+    -- instalar o expo
 
-expo init mobile
---select - blank(typescript)
+    expo init mobile
+    --select - blank(typescript)
 
-npm start
+    npm start
 
-expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
+    expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
 
-npm install @react-navigation/native
-expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
-npm install @react-navigation/stack
+    npm install @react-navigation/native
+    expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+    npm install @react-navigation/stack
 
-expo install react-native-maps
+    expo install react-native-maps
 
-expo install expo-constants
+    expo install expo-constants
 
-expo install react-native-svg
+    expo install react-native-svg
 
-npm install axios
+    npm install axios
 
-expo install expo-location
+    expo install expo-location
 
-expo install expo-mail-composer
+    expo install expo-mail-composer
 ```
